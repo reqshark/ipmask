@@ -1,5 +1,7 @@
 # ipmask
 
+Also see: https://github.com/nucleardreamer/netrange
+
 useful for IPv4-based neighbor discovery on a subnet. get the subnet ifconfig
 netmask.
 
