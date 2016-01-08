@@ -3,7 +3,7 @@
 Also see: https://github.com/nucleardreamer/netrange
 
 useful for IPv4-based neighbor discovery on a subnet. ~~get the subnet ifconfig
-netmask.~~ get the public IPv4 interface, including the netmask
+netmask.~~ get the public IPv4 interface, including the mac addr and netmask
 
 # install
 ```bash
