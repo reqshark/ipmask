@@ -2,8 +2,8 @@
 
 Also see: https://github.com/nucleardreamer/netrange
 
-useful for IPv4-based neighbor discovery on a subnet. get the subnet ifconfig
-netmask.
+useful for IPv4-based neighbor discovery on a subnet. ~~get the subnet ifconfig
+netmask.~~ get the public IPv4 interface, including the netmask
 
 # install
 ```bash
@@ -12,5 +12,5 @@ $ npm i ipmask
 
 #  use
 ```js
-var netmask = require('ipmask')() // 255.255.252.0
+var netmask = require('ipmask')() // an obj w/ IPv4 netmask and mac address
 ```

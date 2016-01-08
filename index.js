@@ -1,4 +1,4 @@
-module.exports = function netmask() {
+module.exports = function addr () {
   var ip = require('ip').address()
   var ifaces = require('os').networkInterfaces()
 
@@ -9,6 +9,6 @@ module.exports = function netmask() {
     })
 
     if (f.length)
-      return f[0].netmask
+      return f[0]
   }
 }

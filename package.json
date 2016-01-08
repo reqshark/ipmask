@@ -1,7 +1,7 @@
 {
   "name":           "ipmask",
   "version":        "0.0.1",
-  "description":    "get the subnet ifconfig netmask",
+  "description":    "get a public interface's mac and subnet ifconfig netmask",
   "repository": {
     "type":         "git",
     "url":          "https://github.com/reqshark/ipmask"
