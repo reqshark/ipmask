@@ -1,6 +1,6 @@
 {
   "name":           "ipmask",
-  "version":        "0.0.1",
+  "version":        "1.0.0",
   "description":    "get a public interface's mac and subnet ifconfig netmask",
   "repository": {
     "type":         "git",
