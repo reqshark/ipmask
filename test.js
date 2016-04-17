@@ -1,1 +1,3 @@
-console.log(require('./')())
+const ipmask = require('./')
+
+console.log(ipmask())
